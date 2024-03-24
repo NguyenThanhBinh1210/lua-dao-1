@@ -185,12 +185,14 @@ const Home = () => {
   return (
     <div>
       <Link to={'/'}>
-        <img src={homeBaner} alt='' />
+        <div className='h-[150px] md:h-max'>
+          <img className='w-full h-full object-cover' src={homeBaner} alt='' />
+        </div>
       </Link>
       <div className='md:h-[100px] relative z-20'>
         <div
           style={{ boxShadow: '0 0 28px 6px rgba(0,0,0,.2)' }}
-          className='rounded-3xl md:-translate-y-20 top-0 left-1/2 md:-translate-x-1/2 w-full md:absolute bg-white !overflow-hidden p-2 max-w-[900px] mx-auto '
+          className='rounded-3xl -translate-y-7 md:-translate-y-20 top-0 left-1/2 md:-translate-x-1/2 w-full md:absolute bg-white !overflow-hidden p-2 max-w-[900px] mx-auto '
         >
           <Tabs value={activeTab} className=''>
             <TabsHeader
@@ -208,8 +210,8 @@ const Home = () => {
                   onClick={() => setActiveTab(value)}
                   className={
                     activeTab === value
-                      ? 'text-primary font-bold text-base pb-3 w-max px-6'
-                      : 'font-bold pb-3 text-base text-[#828282] hover:text-primary w-max px-6'
+                      ? 'text-primary font-bold text-base pb-3 w-max md:px-6 px-3'
+                      : 'font-bold pb-3 text-base text-[#828282] hover:text-primary w-max md:px-6 px-3'
                   }
                 >
                   {label}
@@ -227,7 +229,7 @@ const Home = () => {
         </div>
       </div>
       <div className='md:border-b-[1px] border-b-[8px] pb-12 '>
-        <div className=' mt-10 md:mt-[100px] container !max-w-[900px] md:flex '>
+        <div className=' mt-0 md:mt-[100px] container !max-w-[900px] md:flex '>
           <div className='flex items-center gap-3 pb-5 md:pr-6 md:pb-0 md:border-b-0 md:border-r border-b border-secondary'>
             <img className='w-[56px]' loading='lazy' src={muuoinam} alt='' />
             <div className='text-secondary text-xl'>
