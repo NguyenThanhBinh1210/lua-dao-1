@@ -9,7 +9,8 @@ export default withMT({
         primary: '#df782c',
         secondary: '#f99245',
         third: '#ef6013',
-        primaryLight: '#fff1e2'
+        primaryLight: '#fff1e2',
+        textColor: '#444444'
       }
     }
   },

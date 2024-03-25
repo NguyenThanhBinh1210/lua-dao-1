@@ -236,7 +236,7 @@ export const headerMenu = [
       </svg>
     ),
     title: 'Vé máy bay',
-    path: '/'
+    path: '/ve-may-bay'
   },
   {
     icon: (
@@ -250,7 +250,7 @@ export const headerMenu = [
       </svg>
     ),
     title: 'Khách sạn',
-    path: '/'
+    path: '/khach-san'
   },
   {
     icon: (
@@ -270,7 +270,7 @@ export const headerMenu = [
       </svg>
     ),
     title: 'Tour du lịch',
-    path: '/'
+    path: '/tour-du-lich'
   },
   {
     icon: (
@@ -306,7 +306,7 @@ export const headerMenu = [
       </svg>
     ),
     title: 'Combo khuyễn mại',
-    path: '/'
+    path: '/combo-du-lich'
   },
   {
     icon: (
@@ -320,7 +320,7 @@ export const headerMenu = [
       </svg>
     ),
     title: 'Vinpearl',
-    path: '/'
+    path: '/vinpearl'
   },
   {
     icon: (
@@ -354,7 +354,7 @@ export const headerMenu = [
       </svg>
     ),
     title: 'Du thuyền Hạ Long',
-    path: '/'
+    path: '/du-thuyen-ha-long'
   },
 
   {
@@ -369,7 +369,7 @@ export const headerMenu = [
       </svg>
     ),
     title: 'Vé vui chơi',
-    path: '/'
+    path: '/ve-vui-choi'
   }
 ]
 
@@ -597,6 +597,58 @@ export const homeLinkFooter = [
         title: 'Vé máy bay đi Singapore',
         path: '/'
       }
+    ]
+  }
+]
+
+export const veMayBayDiemDen = [
+  {
+    title: 'Điểm đến nội địa',
+    links: [
+      { title: 'Hà Nội', path: '/hanoi' },
+      { title: 'Hồ Chí Minh', path: '/hochiminh' },
+      { title: 'Đà Nẵng', path: '/danang' },
+      { title: 'Nha Trang', path: '/nhatrang' },
+      { title: 'Phú Quốc', path: '/phuquoc' },
+      { title: 'Huế', path: '/hue' },
+      { title: 'Hải Phòng', path: '/haiphong' },
+      { title: 'Cần Thơ', path: '/cantho' },
+      { title: 'Côn Đảo', path: '/condao' },
+      { title: 'Thanh Hóa', path: '/thanhhoa' },
+      { title: 'Đà Lạt', path: '/dalat' },
+      { title: 'Quy Nhơn', path: '/quynhon' }
+    ]
+  },
+  {
+    title: 'Điểm đến quốc tế',
+    links: [
+      { title: 'Thái Lan', path: '/thai-lan' },
+      { title: 'Nhật Bản', path: '/nhat-ban' },
+      { title: 'Hàn Quốc', path: '/han-quoc' },
+      { title: 'Úc', path: '/uc' },
+      { title: 'Singapore', path: '/singapore' },
+      { title: 'Trung Quốc', path: '/trung-quoc' },
+      { title: 'Đài Loan', path: '/dai-loan' },
+      { title: 'Mỹ', path: '/my' },
+      { title: 'Pháp', path: '/phap' },
+      { title: 'Ấn Độ', path: '/an-do' },
+      { title: 'Đức', path: '/duc' },
+      { title: 'Thụy Sĩ', path: '/thuy-si' }
+    ]
+  },
+  {
+    title: 'Vé máy bay theo chủ đề',
+    links: [
+      { title: 'Vé máy bay nội địa', path: '/ve-may-bay-noi-dia' },
+      { title: 'Vé máy bay quốc tế', path: '/ve-may-bay-quoc-te' },
+      { title: 'Vé máy bay Tết', path: '/ve-may-bay-tet' },
+      { title: 'Đại lý vé máy bay', path: '/dai-ly-ve-may-bay' },
+      { title: 'Săn vé máy bay 0 đồng', path: '/san-ve-may-bay-0-dong' },
+      { title: 'Vé máy bay về Việt Nam', path: '/ve-may-bay-ve-viet-nam' },
+      { title: 'Vé Máy Bay Khuyến Mại', path: '/ve-may-bay-khuyen-mai' },
+      { title: 'Vé rẻ trong tháng', path: '/ve-re-trong-thang' },
+      { title: 'Vé máy bay khứ hồi', path: '/ve-may-bay-khu-hoi' },
+      { title: 'Lịch bay', path: '/lich-bay' }
     ]
   }
 ]

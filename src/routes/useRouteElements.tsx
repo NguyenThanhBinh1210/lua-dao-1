@@ -8,6 +8,12 @@ import HomeLayout from '~/layouts/HomeLayout'
 import Home from '~/pages/Home'
 import { useContext } from 'react'
 import { VeVuiChoi } from '~/pages/VeVuiChoi'
+import { VeMayBay } from '~/pages/VeMayBay'
+import KhachSan from '~/pages/KhachSan'
+import TourDuLich from '~/pages/TourDuLich'
+import ComboKhuyenMai from '~/pages/ComboKhuyenMai'
+import Vinpearl from '~/pages/Vinpearl'
+import DuThuyenHaLong from '~/pages/DuThuyenHaLong'
 
 const useRouteElements = () => {
   function ProtecedRoute() {
@@ -51,6 +57,62 @@ const useRouteElements = () => {
           element: (
             <HomeLayout>
               <Home />
+            </HomeLayout>
+          )
+        },
+        {
+          path: '/ve-vui-choi',
+          element: (
+            <HomeLayout>
+              <VeVuiChoi />
+            </HomeLayout>
+          )
+        },
+        {
+          path: '/ve-may-bay',
+          element: (
+            <HomeLayout>
+              <VeMayBay />
+            </HomeLayout>
+          )
+        },
+        {
+          path: '/khach-san',
+          element: (
+            <HomeLayout>
+              <KhachSan />
+            </HomeLayout>
+          )
+        },
+        {
+          path: '/tour-du-lich',
+          element: (
+            <HomeLayout>
+              <TourDuLich />
+            </HomeLayout>
+          )
+        },
+        {
+          path: '/combo-du-lich',
+          element: (
+            <HomeLayout>
+              <ComboKhuyenMai />
+            </HomeLayout>
+          )
+        },
+        {
+          path: '/vinpearl',
+          element: (
+            <HomeLayout>
+              <Vinpearl />
+            </HomeLayout>
+          )
+        },
+        {
+          path: '/du-thuyen-ha-long',
+          element: (
+            <HomeLayout>
+              <DuThuyenHaLong />
             </HomeLayout>
           )
         },

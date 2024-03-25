@@ -302,7 +302,7 @@ const Home = () => {
               .fill(0)
               .map((_, index) => (
                 <div key={index} className='rounded-md border border-white overflow-hidden hover:border-primary'>
-                  <img className='w-[130px] mx-auto' src={vietnam1} alt='vietnam1' />
+                  <img loading='lazy' className='w-[130px] mx-auto' src={vietnam1} alt='vietnam1' />
                 </div>
               ))}
           </div>
