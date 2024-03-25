@@ -652,3 +652,51 @@ export const veMayBayDiemDen = [
     ]
   }
 ]
+export const khachSan = [
+  {
+    title: 'Khách sạn trong nước',
+    links: [
+      { title: 'Khách sạn Sapa', path: '/khach-san-sapa' },
+      { title: 'Khách sạn Đà Nẵng', path: '/khach-san-da-nang' },
+      { title: 'Khách sạn Nha Trang', path: '/khach-san-nha-trang' },
+      { title: 'Khách sạn Ninh Bình', path: '/khach-san-ninh-binh' },
+      { title: 'Khách sạn Hạ Long', path: '/khach-san-ha-long' },
+      { title: 'Khách sạn Đà Lạt', path: '/khach-san-da-lat' },
+      { title: 'Khách sạn Quy Nhơn', path: '/khach-san-quy-nhon' },
+      { title: 'Khách sạn Phú Quốc', path: '/khach-san-phu-quoc' },
+      { title: 'Khách sạn Hà Giang', path: '/khach-san-ha-giang' },
+      { title: 'Khách sạn Hà Nội', path: '/khach-san-ha-noi' },
+      { title: 'Khách sạn Hội An', path: '/khach-san-hoi-an' },
+      { title: 'Khách sạn Hồ Chí Minh', path: '/khach-san-ho-chi-minh' },
+      { title: 'Khách sạn Cát Bà', path: '/khach-san-cat-ba' },
+      { title: 'Khách sạn Huế', path: '/khach-san-hue' },
+      { title: 'Khách sạn Mộc Châu', path: '/khach-san-moc-chau' },
+      { title: 'Khách sạn Côn Đảo', path: '/khach-san-con-dao' },
+      { title: 'Khách sạn Quảng Bình', path: '/khach-san-quang-binh' },
+      { title: 'Khách sạn Buôn Ma Thuột', path: '/khach-san-buon-ma-thuot' },
+      { title: 'Khách sạn Phan Thiết', path: '/khach-san-phan-thiet' },
+      { title: 'Khách sạn Cần Thơ', path: '/khach-san-can-tho' },
+      { title: 'Khách sạn Vũng Tàu', path: '/khach-san-vung-tau' },
+      { title: 'Khách sạn Hà Nam', path: '/khach-san-ha-nam' },
+      { title: 'Khách sạn Thanh Hóa', path: '/khach-san-thanh-hoa' },
+      { title: 'Khách sạn Phú Yên', path: '/khach-san-phu-yen' },
+      { title: 'Khách sạn Vĩnh Phúc', path: '/khach-san-vinh-phuc' },
+      { title: 'Khách sạn Hòa Bình', path: '/khach-san-hoa-binh' },
+      { title: 'Khách sạn Hà Tĩnh', path: '/khach-san-ha-tinh' },
+      { title: 'Khách sạn Quảng Ninh', path: '/khach-san-quang-ninh' },
+      { title: 'Khách sạn Hải Phòng', path: '/khach-san-hai-phong' },
+      { title: 'Khách sạn Ninh Thuận', path: '/khach-san-ninh-thuan' }
+    ]
+  },
+  {
+    title: 'Chủ đề khách sạn',
+    links: [
+      { title: 'Nghỉ dưỡng gần Hà Nội', path: '/nghi-duong-gan-ha-noi' },
+      { title: 'Nghỉ dưỡng gần Hồ Chí Minh', path: '/nghi-duong-gan-ho-chi-minh' },
+      { title: 'Dịp Quốc Khánh 2/9', path: '/dip-quoc-khanh-2-9' },
+      { title: 'Hội nghị MICEDành cho cặp đôi', path: '/hoi-nghi-mice-danh-cho-cap-doi' },
+      { title: 'Nghỉ lễ 30/4 & 1/5', path: '/nghi-le-30-4-1-5' },
+      { title: 'Du xuân đón lộc vàng', path: '/du-xuan-don-loc-vang' }
+    ]
+  },
+]
